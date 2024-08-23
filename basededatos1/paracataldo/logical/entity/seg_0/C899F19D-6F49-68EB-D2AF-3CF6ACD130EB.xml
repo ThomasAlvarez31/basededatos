@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C899F19D-6F49-68EB-D2AF-3CF6ACD130EB" name="ENVIO">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-23 14:53:11 UTC</createdTime>
+<ownerDesignName>paracataldo</ownerDesignName>
+<engineerTo>
+<item key="D801A4C4-E6F6-2456-66B0-A7A46E0CF1BF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_envio" id="C4BE8D67-4F95-C508-EB70-2A2CD1883C1E">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-23 14:53:19 UTC</createdTime>
+<ownerDesignName>paracataldo</ownerDesignName>
+<engineerTo>
+<item key="D801A4C4-E6F6-2456-66B0-A7A46E0CF1BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="1FD3D16B-EC28-B387-3150-D2B57CC38702">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-23 14:53:40 UTC</createdTime>
+<ownerDesignName>paracataldo</ownerDesignName>
+<engineerTo>
+<item key="D801A4C4-E6F6-2456-66B0-A7A46E0CF1BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="2A7FFD14-AC1B-D52B-98E4-3A2A841DE4B2">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-23 14:53:54 UTC</createdTime>
+<ownerDesignName>paracataldo</ownerDesignName>
+<engineerTo>
+<item key="D801A4C4-E6F6-2456-66B0-A7A46E0CF1BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="D5213374-5551-F240-F716-CB32F3DA87A6">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-23 14:54:10 UTC</createdTime>
+<ownerDesignName>paracataldo</ownerDesignName>
+<engineerTo>
+<item key="D801A4C4-E6F6-2456-66B0-A7A46E0CF1BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="run" id="051AC078-1D6F-ACD4-1D75-01B033D5D73E">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-23 14:54:26 UTC</createdTime>
+<ownerDesignName>paracataldo</ownerDesignName>
+<engineerTo>
+<item key="D801A4C4-E6F6-2456-66B0-A7A46E0CF1BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correo" id="D1FD23DD-D70E-C2C8-5F3A-3C1138E9233C">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-23 14:54:44 UTC</createdTime>
+<ownerDesignName>paracataldo</ownerDesignName>
+<engineerTo>
+<item key="D801A4C4-E6F6-2456-66B0-A7A46E0CF1BF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="info_envio" id="1F642D70-4403-0A7F-5FC2-3467FF7A9F25">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-23 14:55:15 UTC</createdTime>
+<ownerDesignName>paracataldo</ownerDesignName>
+<engineerTo>
+<item key="D801A4C4-E6F6-2456-66B0-A7A46E0CF1BF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_postal" id="1F20899E-CB37-D533-6BED-B529396E971A">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-23 14:56:05 UTC</createdTime>
+<ownerDesignName>paracataldo</ownerDesignName>
+<engineerTo>
+<item key="D801A4C4-E6F6-2456-66B0-A7A46E0CF1BF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>7</dataTypeScale>
+<ownDataTypeParameters>,,7</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="73D393F0-8DC7-89FD-CACA-CC8260D55F22" name="ENVIO PK">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-23 14:53:37 UTC</createdTime>
+<ownerDesignName>paracataldo</ownerDesignName>
+<engineerTo>
+<item key="D801A4C4-E6F6-2456-66B0-A7A46E0CF1BF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C4BE8D67-4F95-C508-EB70-2A2CD1883C1E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

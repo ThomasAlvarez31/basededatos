@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="C899F19D-6F49-68EB-D2AF-3CF6ACD130EB" name="ENVIO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="AFFF0719-0251-2CB9-29CE-FF3D6DE03C3A" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="65539BE8-F0BC-CFDF-BF77-22742FC84F94" name="PERSONA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="AFFF0719-0251-2CB9-29CE-FF3D6DE03C3A" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="642C1916-3F4B-370F-CBED-BD997D54ABE6" name="PRODUCTO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="AFFF0719-0251-2CB9-29CE-FF3D6DE03C3A" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="76A6F433-2E58-7429-169D-7D06FD384DB3" name="REPARTIDORES" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="AFFF0719-0251-2CB9-29CE-FF3D6DE03C3A" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>
