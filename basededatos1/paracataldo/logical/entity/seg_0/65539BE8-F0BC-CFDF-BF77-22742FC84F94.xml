@@ -24,7 +24,22 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>13</dataTypeScale>
+<ownDataTypeParameters>,,13</ownDataTypeParameters>
+</Attribute>
+<Attribute name="digito_verificador" id="9896F765-8BD8-B619-F6B4-21E06D9BE573">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-23 15:38:29 UTC</createdTime>
+<ownerDesignName>paracataldo</ownerDesignName>
+<engineerTo>
+<item key="D801A4C4-E6F6-2456-66B0-A7A46E0CF1BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nombre" id="83263352-A0F5-CFE1-D602-5BC8CCBB4F94">
 <createdBy>Y409-PCXX</createdBy>
@@ -36,7 +51,22 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>42</dataTypeSize>
+<ownDataTypeParameters>42,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sgnd_nombre" id="4094AA2C-FB52-D3E6-8E07-E6E7752E859E">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-23 15:37:30 UTC</createdTime>
+<ownerDesignName>paracataldo</ownerDesignName>
+<engineerTo>
+<item key="D801A4C4-E6F6-2456-66B0-A7A46E0CF1BF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="apellido" id="1B9A85AE-5B07-1A6A-5D3B-2D645D858FBC">
 <createdBy>Y409-PCXX</createdBy>
@@ -48,7 +78,22 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sgndo_apellido" id="EB687269-3532-BF64-19B3-04EEBE281D71">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-23 15:38:05 UTC</createdTime>
+<ownerDesignName>paracataldo</ownerDesignName>
+<engineerTo>
+<item key="D801A4C4-E6F6-2456-66B0-A7A46E0CF1BF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="correo" id="47C8FFBD-7C9C-DE25-7B6F-89F1801C465B">
 <createdBy>Y409-PCXX</createdBy>
@@ -61,7 +106,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="telefono" id="1AB7991E-9941-C90A-831B-0FAF05E2FDCB">
 <createdBy>Y409-PCXX</createdBy>
@@ -74,7 +120,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeScale>13</dataTypeScale>
+<ownDataTypeParameters>,,13</ownDataTypeParameters>
 </Attribute>
 <Attribute name="direccion" id="39821EAF-6566-AE8E-4723-7FEB1C569857">
 <createdBy>Y409-PCXX</createdBy>
@@ -87,7 +134,22 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="40925055-6815-39C2-E59E-7DDC2347D3D3" name="PERSONA PK">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-23 15:31:29 UTC</createdTime>
+<ownerDesignName>paracataldo</ownerDesignName>
+<engineerTo>
+<item key="D801A4C4-E6F6-2456-66B0-A7A46E0CF1BF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AF21C0D7-B9CB-D087-4ED4-67BAE5FE3321</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

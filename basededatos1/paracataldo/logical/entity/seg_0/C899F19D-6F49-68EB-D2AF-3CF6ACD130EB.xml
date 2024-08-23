@@ -25,7 +25,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,10</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nombre" id="1FD3D16B-EC28-B387-3150-D2B57CC38702">
 <createdBy>Y409-PCXX</createdBy>
@@ -37,7 +38,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="direccion" id="2A7FFD14-AC1B-D52B-98E4-3A2A841DE4B2">
 <createdBy>Y409-PCXX</createdBy>
@@ -49,7 +51,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="telefono" id="D5213374-5551-F240-F716-CB32F3DA87A6">
 <createdBy>Y409-PCXX</createdBy>
@@ -61,7 +64,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeScale>13</dataTypeScale>
+<ownDataTypeParameters>,,13</ownDataTypeParameters>
 </Attribute>
 <Attribute name="run" id="051AC078-1D6F-ACD4-1D75-01B033D5D73E">
 <createdBy>Y409-PCXX</createdBy>
@@ -73,6 +77,19 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,10</ownDataTypeParameters>
+</Attribute>
+<Attribute name="digito_verificador" id="1CB62FA3-19DD-1CD5-F958-5B13CC02D930">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-23 15:39:37 UTC</createdTime>
+<ownerDesignName>paracataldo</ownerDesignName>
+<engineerTo>
+<item key="D801A4C4-E6F6-2456-66B0-A7A46E0CF1BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="correo" id="D1FD23DD-D70E-C2C8-5F3A-3C1138E9233C">
@@ -86,7 +103,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="info_envio" id="1F642D70-4403-0A7F-5FC2-3467FF7A9F25">
 <createdBy>Y409-PCXX</createdBy>
@@ -99,7 +117,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="codigo_postal" id="1F20899E-CB37-D533-6BED-B529396E971A">
 <createdBy>Y409-PCXX</createdBy>

@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="642C1916-3F4B-370F-CBED-BD997D54ABE6" name="PRODUCTO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="838CFD2B-E111-2B1F-7243-C94B4D25A470" name="VENTA">
 <createdBy>Y409-PCXX</createdBy>
-<createdTime>2024-08-23 14:50:47 UTC</createdTime>
+<createdTime>2024-08-23 15:41:35 UTC</createdTime>
 <ownerDesignName>paracataldo</ownerDesignName>
 <engineerTo>
 <item key="D801A4C4-E6F6-2456-66B0-A7A46E0CF1BF" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_producto" id="D74E76E9-B88B-5AAE-9023-6199E214D344">
+<Attribute name="id_venta" id="75E29B9D-BFEF-2018-BC3B-B728EC8B7749">
 <createdBy>Y409-PCXX</createdBy>
-<createdTime>2024-08-23 14:51:01 UTC</createdTime>
+<createdTime>2024-08-23 15:41:46 UTC</createdTime>
 <ownerDesignName>paracataldo</ownerDesignName>
 <engineerTo>
 <item key="D801A4C4-E6F6-2456-66B0-A7A46E0CF1BF" value="true"/>
@@ -28,9 +28,9 @@
 <dataTypeScale>10</dataTypeScale>
 <ownDataTypeParameters>,,10</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre" id="93EBAB46-9CB7-66F3-E024-2CB382B3B4C7">
+<Attribute name="metodo_pago" id="4C5BEEBD-2601-88E5-384B-3DCD3A9A5E38">
 <createdBy>Y409-PCXX</createdBy>
-<createdTime>2024-08-23 14:51:24 UTC</createdTime>
+<createdTime>2024-08-23 15:42:10 UTC</createdTime>
 <ownerDesignName>paracataldo</ownerDesignName>
 <engineerTo>
 <item key="D801A4C4-E6F6-2456-66B0-A7A46E0CF1BF" value="true"/>
@@ -38,71 +38,54 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>42</dataTypeSize>
-<ownDataTypeParameters>42,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="stock" id="DBD40532-F02B-FA09-7F41-AD745BC80CF4">
+<Attribute name="informacion_empresa" id="B5270ACD-0297-9F24-11DB-7D4AC9DBE69A">
 <createdBy>Y409-PCXX</createdBy>
-<createdTime>2024-08-23 14:51:38 UTC</createdTime>
+<createdTime>2024-08-23 15:43:14 UTC</createdTime>
 <ownerDesignName>paracataldo</ownerDesignName>
 <engineerTo>
 <item key="D801A4C4-E6F6-2456-66B0-A7A46E0CF1BF" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypeScale>999</dataTypeScale>
-<ownDataTypeParameters>,,999</ownDataTypeParameters>
-</Attribute>
-<Attribute name="valor" id="D5CE2685-16D8-E9F8-EC38-BBF79061D4F7">
-<createdBy>Y409-PCXX</createdBy>
-<createdTime>2024-08-23 14:51:54 UTC</createdTime>
-<ownerDesignName>paracataldo</ownerDesignName>
-<engineerTo>
-<item key="D801A4C4-E6F6-2456-66B0-A7A46E0CF1BF" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypeScale>10</dataTypeScale>
-<ownDataTypeParameters>,,10</ownDataTypeParameters>
-</Attribute>
-<Attribute name="marca" id="576AC7F6-92B3-97D3-C5EB-8BB4E7A2FC09">
-<createdBy>Y409-PCXX</createdBy>
-<createdTime>2024-08-23 14:52:06 UTC</createdTime>
-<ownerDesignName>paracataldo</ownerDesignName>
-<engineerTo>
-<item key="D801A4C4-E6F6-2456-66B0-A7A46E0CF1BF" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="peso" id="C43A9BCF-50AB-0ECE-2337-87AA395129BE">
+<Attribute name="datos_cliente" id="747DCE6C-3025-81FE-029F-CECF6A16B19C">
 <createdBy>Y409-PCXX</createdBy>
-<createdTime>2024-08-23 14:52:19 UTC</createdTime>
+<createdTime>2024-08-23 15:43:37 UTC</createdTime>
 <ownerDesignName>paracataldo</ownerDesignName>
 <engineerTo>
 <item key="D801A4C4-E6F6-2456-66B0-A7A46E0CF1BF" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_boleta" id="F625B53E-1856-50AE-9D44-B3999BF2C116">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-23 15:44:13 UTC</createdTime>
+<ownerDesignName>paracataldo</ownerDesignName>
+<engineerTo>
+<item key="D801A4C4-E6F6-2456-66B0-A7A46E0CF1BF" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypeScale>4</dataTypeScale>
-<ownDataTypeParameters>,,4</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="informacion" id="98D6D508-E486-DA25-D61D-634652A6740D">
+<Attribute name="productos_vendidos" id="F75E0AAF-4667-EFBE-A2B5-C0958BD6CFD6">
 <createdBy>Y409-PCXX</createdBy>
-<createdTime>2024-08-23 14:52:31 UTC</createdTime>
+<createdTime>2024-08-23 15:45:56 UTC</createdTime>
 <ownerDesignName>paracataldo</ownerDesignName>
 <engineerTo>
 <item key="D801A4C4-E6F6-2456-66B0-A7A46E0CF1BF" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -111,16 +94,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="C9271D65-D246-C827-D9EF-3433BAE070FA" name="PRODUCTO PK">
+<identifier id="70885B93-60A2-9382-2F33-85AF9F1917E9" name="VENTA PK">
 <createdBy>Y409-PCXX</createdBy>
-<createdTime>2024-08-23 14:51:18 UTC</createdTime>
+<createdTime>2024-08-23 15:42:08 UTC</createdTime>
 <ownerDesignName>paracataldo</ownerDesignName>
 <engineerTo>
 <item key="D801A4C4-E6F6-2456-66B0-A7A46E0CF1BF" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>D74E76E9-B88B-5AAE-9023-6199E214D344</attributeRef>
+<attributeRef>75E29B9D-BFEF-2018-BC3B-B728EC8B7749</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

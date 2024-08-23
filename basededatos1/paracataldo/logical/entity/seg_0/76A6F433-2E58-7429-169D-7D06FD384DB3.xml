@@ -25,7 +25,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,10</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nombre" id="A3380B8B-6989-EE49-E66E-44809D82EA42">
 <createdBy>Y409-PCXX</createdBy>
@@ -37,7 +38,22 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sgndo_nombre" id="626053EB-B259-C2B7-B602-E9EE72CE3B54">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-23 15:40:10 UTC</createdTime>
+<ownerDesignName>paracataldo</ownerDesignName>
+<engineerTo>
+<item key="D801A4C4-E6F6-2456-66B0-A7A46E0CF1BF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="apellido" id="B2C44417-F6B5-B64E-8B53-669F56862B7B">
 <createdBy>Y409-PCXX</createdBy>
@@ -49,7 +65,22 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sgndo_apellido" id="1DA31DE0-FC06-1CA9-DD44-FDC2B4129B25">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-23 15:40:39 UTC</createdTime>
+<ownerDesignName>paracataldo</ownerDesignName>
+<engineerTo>
+<item key="D801A4C4-E6F6-2456-66B0-A7A46E0CF1BF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="rut" id="C8E9F25D-71FC-EB90-F008-62A40531DA07">
 <createdBy>Y409-PCXX</createdBy>
@@ -61,7 +92,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeScale>13</dataTypeScale>
+<ownDataTypeParameters>,,13</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
