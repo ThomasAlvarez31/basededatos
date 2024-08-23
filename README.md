@@ -1,2 +1,2 @@
 # basededatos
-basededatos clase
+repositorio para la clase de BD duoc UC 2024
