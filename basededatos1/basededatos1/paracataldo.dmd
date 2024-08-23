@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="paracataldo" id="3AEFA3A0-BCA6-32E6-E7B7-5657C7CB482B" version="3.5">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-23 14:49:44 UTC</createdTime>
+<ownerDesignName>paracataldo</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>3AEFA3A0-BCA6-32E6-E7B7-5657C7CB482B</designId>
+</OSDM_Design>
