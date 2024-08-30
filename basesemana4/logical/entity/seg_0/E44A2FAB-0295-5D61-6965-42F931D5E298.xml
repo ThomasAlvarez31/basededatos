@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E44A2FAB-0295-5D61-6965-42F931D5E298" name="PAGO_MENSUAL">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-30 15:09:32 UTC</createdTime>
+<ownerDesignName>basesemana4</ownerDesignName>
+<engineerTo>
+<item key="1D68DEE2-952E-962C-9E54-B11967A4E7BD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="valor" id="1A5E8DE3-1A8B-45B0-AB6C-5DA491C9B2AE">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-30 15:09:55 UTC</createdTime>
+<ownerDesignName>basesemana4</ownerDesignName>
+<engineerTo>
+<item key="1D68DEE2-952E-962C-9E54-B11967A4E7BD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,10</ownDataTypeParameters>
+</Attribute>
+<Attribute name="medio_pago" id="AF09662A-D43E-5B70-0078-AF5A8E2B76A4">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-30 15:10:38 UTC</createdTime>
+<ownerDesignName>basesemana4</ownerDesignName>
+<engineerTo>
+<item key="1D68DEE2-952E-962C-9E54-B11967A4E7BD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_pago" id="D12C2CAB-FE7D-5FA8-850E-B6F0C6B1DAEC">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-30 15:27:56 UTC</createdTime>
+<generatorID>10713099-5AA1-9BCF-FD2B-74A049908CD7</generatorID>
+<ownerDesignName>basesemana4</ownerDesignName>
+<engineerTo>
+<item key="1D68DEE2-952E-962C-9E54-B11967A4E7BD" value="true"/>
+</engineerTo>
+<referedAttribute>5AB9E461-6B33-061F-ECA7-B7E823B2A0D7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

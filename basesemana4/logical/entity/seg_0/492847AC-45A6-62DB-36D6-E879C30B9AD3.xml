@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="492847AC-45A6-62DB-36D6-E879C30B9AD3" name="PAGO">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-30 15:24:09 UTC</createdTime>
+<ownerDesignName>basesemana4</ownerDesignName>
+<engineerTo>
+<item key="1D68DEE2-952E-962C-9E54-B11967A4E7BD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numero_pago" id="5AB9E461-6B33-061F-ECA7-B7E823B2A0D7">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-30 15:24:26 UTC</createdTime>
+<ownerDesignName>basesemana4</ownerDesignName>
+<engineerTo>
+<item key="1D68DEE2-952E-962C-9E54-B11967A4E7BD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,10</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_pago" id="B5BA691B-8A83-6F55-B3FE-01846AD8EC0A">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-30 15:25:07 UTC</createdTime>
+<ownerDesignName>basesemana4</ownerDesignName>
+<engineerTo>
+<item key="1D68DEE2-952E-962C-9E54-B11967A4E7BD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad" id="8EFA7DD7-1A9E-1E12-8C79-E2D3FB8D5B1C">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-30 15:25:25 UTC</createdTime>
+<ownerDesignName>basesemana4</ownerDesignName>
+<engineerTo>
+<item key="1D68DEE2-952E-962C-9E54-B11967A4E7BD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="forma_pago" id="0E7152B8-9B81-6D32-BAE4-63464AE9097F">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-30 15:25:58 UTC</createdTime>
+<ownerDesignName>basesemana4</ownerDesignName>
+<engineerTo>
+<item key="1D68DEE2-952E-962C-9E54-B11967A4E7BD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="68343AB5-79FD-F70F-19E3-A155C8BFA46D" name="PAGO PK">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-30 15:24:59 UTC</createdTime>
+<ownerDesignName>basesemana4</ownerDesignName>
+<engineerTo>
+<item key="1D68DEE2-952E-962C-9E54-B11967A4E7BD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5AB9E461-6B33-061F-ECA7-B7E823B2A0D7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

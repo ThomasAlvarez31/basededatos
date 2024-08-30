@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F8025BD4-65B6-50A4-8666-61E9297A3FBB" name="PLAYLIST">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-30 15:34:23 UTC</createdTime>
+<ownerDesignName>basesemana4</ownerDesignName>
+<engineerTo>
+<item key="1D68DEE2-952E-962C-9E54-B11967A4E7BD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_unico" id="97A806D3-89DB-7EDE-54FC-EF88AB8B7FC0">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-30 15:35:31 UTC</createdTime>
+<ownerDesignName>basesemana4</ownerDesignName>
+<engineerTo>
+<item key="1D68DEE2-952E-962C-9E54-B11967A4E7BD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>65</dataTypeScale>
+<ownDataTypeParameters>,,65</ownDataTypeParameters>
+</Attribute>
+<Attribute name="titulo" id="4B371FE4-80BC-B536-34E4-80E421248876">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-30 15:34:34 UTC</createdTime>
+<ownerDesignName>basesemana4</ownerDesignName>
+<engineerTo>
+<item key="1D68DEE2-952E-962C-9E54-B11967A4E7BD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nro_podscat" id="E64F48EB-948B-97E0-8C8D-8B4EC2F432ED">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-30 15:35:04 UTC</createdTime>
+<ownerDesignName>basesemana4</ownerDesignName>
+<engineerTo>
+<item key="1D68DEE2-952E-962C-9E54-B11967A4E7BD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>999</dataTypeScale>
+<ownDataTypeParameters>,,999</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_creacion" id="C47DB558-3A6B-B2A5-8116-C4AD0B291F8D">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-30 15:35:57 UTC</createdTime>
+<ownerDesignName>basesemana4</ownerDesignName>
+<engineerTo>
+<item key="1D68DEE2-952E-962C-9E54-B11967A4E7BD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>9</dataTypeScale>
+<ownDataTypeParameters>,,9</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_unico1" id="77747EE2-FCA4-4A8E-B234-7D14FA314382">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-30 15:47:42 UTC</createdTime>
+<generatorID>FEB58238-E5CA-D1CF-2CAE-52FFADA63563</generatorID>
+<ownerDesignName>basesemana4</ownerDesignName>
+<engineerTo>
+<item key="1D68DEE2-952E-962C-9E54-B11967A4E7BD" value="true"/>
+</engineerTo>
+<referedAttribute>F00D6FAC-3FB5-B9A3-D78B-549EC895A980</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_unico2" id="70EF1A05-41D1-B123-CCD6-10FFF6E2DDC8">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-30 15:52:18 UTC</createdTime>
+<generatorID>B2E90997-F823-64DB-A915-3F1B945B6F00</generatorID>
+<ownerDesignName>basesemana4</ownerDesignName>
+<engineerTo>
+<item key="1D68DEE2-952E-962C-9E54-B11967A4E7BD" value="true"/>
+</engineerTo>
+<referedAttribute>A099A424-03F5-682C-4D1B-B0A5CC413763</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E876BB26-1EC5-0B1A-FA72-99F1D3232990" name="PLAYLIST PK">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-30 15:35:44 UTC</createdTime>
+<ownerDesignName>basesemana4</ownerDesignName>
+<engineerTo>
+<item key="1D68DEE2-952E-962C-9E54-B11967A4E7BD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>97A806D3-89DB-7EDE-54FC-EF88AB8B7FC0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

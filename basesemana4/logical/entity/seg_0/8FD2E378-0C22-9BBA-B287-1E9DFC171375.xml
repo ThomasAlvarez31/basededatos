@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8FD2E378-0C22-9BBA-B287-1E9DFC171375" name="SUSCRIPCION">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-30 15:04:10 UTC</createdTime>
+<ownerDesignName>basesemana4</ownerDesignName>
+<engineerTo>
+<item key="1D68DEE2-952E-962C-9E54-B11967A4E7BD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="fecha_inicio" id="E6BD489B-4A05-51C6-5958-976B35FE2A56">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-30 15:05:35 UTC</createdTime>
+<ownerDesignName>basesemana4</ownerDesignName>
+<engineerTo>
+<item key="1D68DEE2-952E-962C-9E54-B11967A4E7BD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_renovacion" id="EC06BD4F-C896-07DF-0C08-E60E3C927CE0">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-30 15:07:44 UTC</createdTime>
+<ownerDesignName>basesemana4</ownerDesignName>
+<engineerTo>
+<item key="1D68DEE2-952E-962C-9E54-B11967A4E7BD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_unico" id="A2657C23-ADC8-17C4-A029-FFF31C38821F">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-30 15:09:16 UTC</createdTime>
+<generatorID>0DC26F2C-EAE4-9729-5A35-897FDB221E60</generatorID>
+<ownerDesignName>basesemana4</ownerDesignName>
+<engineerTo>
+<item key="1D68DEE2-952E-962C-9E54-B11967A4E7BD" value="true"/>
+</engineerTo>
+<referedAttribute>F00D6FAC-3FB5-B9A3-D78B-549EC895A980</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut_empresa" id="5938CD86-9912-009F-D3AC-FEA737B6B749">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-30 15:29:29 UTC</createdTime>
+<generatorID>09119B13-1900-F5E5-A324-AE6FBD1E3446</generatorID>
+<ownerDesignName>basesemana4</ownerDesignName>
+<engineerTo>
+<item key="1D68DEE2-952E-962C-9E54-B11967A4E7BD" value="true"/>
+</engineerTo>
+<referedAttribute>A35923EE-DF47-3B72-9167-D46B28700607</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>15</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

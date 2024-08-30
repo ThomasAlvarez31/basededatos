@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F0F08D1F-C58F-CADF-7C33-CCD3153E11C7" name="ALBUM">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-30 15:40:05 UTC</createdTime>
+<ownerDesignName>basesemana4</ownerDesignName>
+<engineerTo>
+<item key="1D68DEE2-952E-962C-9E54-B11967A4E7BD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_unico" id="A099A424-03F5-682C-4D1B-B0A5CC413763">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-30 15:40:53 UTC</createdTime>
+<ownerDesignName>basesemana4</ownerDesignName>
+<engineerTo>
+<item key="1D68DEE2-952E-962C-9E54-B11967A4E7BD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,10</ownDataTypeParameters>
+</Attribute>
+<Attribute name="titulo" id="59A259A6-26A7-A712-EBF2-987178031FDD">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-30 15:41:12 UTC</createdTime>
+<ownerDesignName>basesemana4</ownerDesignName>
+<engineerTo>
+<item key="1D68DEE2-952E-962C-9E54-B11967A4E7BD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="anio_publicacion" id="19DBB155-5924-A741-E3B3-BCCF61B83F10">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-30 15:42:11 UTC</createdTime>
+<ownerDesignName>basesemana4</ownerDesignName>
+<engineerTo>
+<item key="1D68DEE2-952E-962C-9E54-B11967A4E7BD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,,4</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_unico1" id="A0AD403E-B39C-BE6E-44B6-A934C0225B36">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-30 15:50:54 UTC</createdTime>
+<generatorID>D4D7F202-08C7-BA6E-C299-7467E1F590CB</generatorID>
+<ownerDesignName>basesemana4</ownerDesignName>
+<engineerTo>
+<item key="1D68DEE2-952E-962C-9E54-B11967A4E7BD" value="true"/>
+</engineerTo>
+<referedAttribute>BC495625-2D34-0F46-86B5-C0011D92F743</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_unico2" id="63FE0A2F-823D-23BA-A661-2A678A8E4479">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-30 15:52:18 UTC</createdTime>
+<generatorID>B2E90997-F823-64DB-A915-3F1B945B6F00</generatorID>
+<ownerDesignName>basesemana4</ownerDesignName>
+<engineerTo>
+<item key="1D68DEE2-952E-962C-9E54-B11967A4E7BD" value="true"/>
+</engineerTo>
+<referedAttribute>97A806D3-89DB-7EDE-54FC-EF88AB8B7FC0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>65</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="976CDA42-10C4-B054-A853-2B1A006832FF" name="ALBUM PK">
+<createdBy>Y409-PCXX</createdBy>
+<createdTime>2024-08-30 15:41:07 UTC</createdTime>
+<ownerDesignName>basesemana4</ownerDesignName>
+<engineerTo>
+<item key="1D68DEE2-952E-962C-9E54-B11967A4E7BD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A099A424-03F5-682C-4D1B-B0A5CC413763</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
